@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dxSampleAngularReportingPrintWithoutPreview", "Reporting-Angular-Print-Without-Preview\dxSampleAngularReportingPrintWithoutPreview.csproj", "{1365C813-526F-4CAF-B141-4AB4B14DC58F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1365C813-526F-4CAF-B141-4AB4B14DC58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1365C813-526F-4CAF-B141-4AB4B14DC58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1365C813-526F-4CAF-B141-4AB4B14DC58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1365C813-526F-4CAF-B141-4AB4B14DC58F}.Release|Any CPU.Build.0 = Release|Any CPU
+		EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D11C10F-AFD2-43A6-9CA2-7FF0644BF869}
+	EndGlobalSection
+EndGlobal

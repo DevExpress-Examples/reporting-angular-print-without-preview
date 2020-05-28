@@ -1,0 +1,3 @@
+<button style="margin:5px" (click)="printInNewWindow('api/Home/Print')">Print a report in a new tab</button>
+<button style="margin:5px" (click)="printWithIFrame('api/Home/Print')">Print a report with IFrame</button>
+<iframe id="printFrame" name="printFrameName" #printFrame [src]="printUrl" frameborder="0" width="1" height="1" style="position: absolute; top:-100px;"></iframe>
