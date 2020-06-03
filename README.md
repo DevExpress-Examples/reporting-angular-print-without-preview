@@ -1,6 +1,8 @@
-## How to print DevExpress reports without previewing them on a web page in an ASP.NET Core Angular application
+## How to print and export DevExpress reports without previewing them on a web page in an ASP.NET Core Angular application
 
-This example prints a report in a browser without previewing it on a web page.
+This example prints and exports a report in a browser without previewing it on a web page.
+
+**Printing**
 
 On the **server side**, add a controller action to:
 - [create a report](https://docs.devexpress.com/XtraReports/2440/get-started-with-devexpress-reporting/create-a-report-from-a-to-z);
@@ -21,3 +23,7 @@ See also:
 
 * [Web Reporting](https://docs.devexpress.com/XtraReports/9814/create-end-user-reporting-applications/web-reporting)
 * [Print Reports in Web Applications](https://docs.devexpress.com/XtraReports/5093/create-end-user-reporting-applications/web-reporting/asp-net-webforms-reporting/print-and-export)
+
+**Exporting**
+
+Create a server-side controller action to export a report to a format selected by a user. See: [Export Reports](https://docs.devexpress.com/XtraReports/1302/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/export-reports).
