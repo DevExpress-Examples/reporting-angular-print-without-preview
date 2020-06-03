@@ -12,7 +12,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 export class HomeComponent  {    
     @ViewChild('printFrame', { static: true }) printFrame: ElementRef;
     @ViewChild('myDropDownList', { static: true }) myDropDownList: ElementRef;
-    selectedFormat = 'txt';
+    selectedFormat = 'pdf';
     printUrl = this.sanitizer.bypassSecurityTrustResourceUrl("");    
     constructor(private sanitizer: DomSanitizer, private _http: HttpClient) {
     }
