@@ -41,7 +41,7 @@ export class HomeComponent  {
         this._http.get('api/Home/Export', {
             params: { "format": this.selectedFormat }, responseType: 'blob'
         }).subscribe(blob => {
-            saveAs(blob, 'TestReport.' + this.selectedFormat);
+            saveAs(blob, 'TestReport.' + this.selectedFormat.toLowerCase());
         });
     }
 }

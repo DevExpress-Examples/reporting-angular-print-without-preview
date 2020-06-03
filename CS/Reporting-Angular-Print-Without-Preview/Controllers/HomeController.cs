@@ -30,11 +30,12 @@ namespace dxSampleAngularReportingPrintWithoutPreview.Controllers {
             }
         }
         [HttpGet("[action]")]
-        public ActionResult Export(string format="pdf") {            
+        public ActionResult Export(string format="pdf") {
+            format = format.ToLower();
             XtraReport report = new TestReport();
-            string contentType = string.Format("application / {0}", format);
+            string contentType = string.Format("application/{0}", format);
             using (MemoryStream ms = new MemoryStream()) {
-                switch (format.ToLower()) {
+                switch (format) {
                     case "pdf":
                         contentType = "application/pdf";
                         report.ExportToPdf(ms);
