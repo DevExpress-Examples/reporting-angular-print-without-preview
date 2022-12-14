@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dxSampleAngularReportingPrintWithoutPreview", "dxSampleAngularReportingPrintWithoutPreview.csproj", "{7289AC60-19C8-42AF-A8B4-B74A0FE15746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dxSampleAngularReportingPrintWithoutPreview", "dxSampleAngularReportingPrintWithoutPreview.csproj", "{17AD5737-FD50-4638-9F76-1A9277132D3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7289AC60-19C8-42AF-A8B4-B74A0FE15746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7289AC60-19C8-42AF-A8B4-B74A0FE15746}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7289AC60-19C8-42AF-A8B4-B74A0FE15746}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7289AC60-19C8-42AF-A8B4-B74A0FE15746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AD5737-FD50-4638-9F76-1A9277132D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AD5737-FD50-4638-9F76-1A9277132D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AD5737-FD50-4638-9F76-1A9277132D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AD5737-FD50-4638-9F76-1A9277132D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3D4D6651-CCA6-4A58-AB1B-B0F42744CA18}
+		SolutionGuid = {E74F4A3D-DF5B-4CBD-B70D-B861CE5B81E8}
 	EndGlobalSection
 EndGlobal
