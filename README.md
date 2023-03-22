@@ -1,13 +1,10 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/267589748/2022.2)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T894254)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-## How to print and export DevExpress reports without previewing them on a web page in an ASP.NET Core Angular application
+# Reporting for Angular - Print and Export Without Preview
 
 This example prints and exports a report in a browser without previewing it on a web page.
 
-**Printing**
+![Print and Export Without Preview - Angular](Images/screenshot.png)
+
+## Printing
 
 On the **server side**, add a controller action to:
 - [create a report](https://docs.devexpress.com/XtraReports/2440/get-started-with-devexpress-reporting/create-a-report-from-a-to-z);
@@ -24,11 +21,23 @@ Once a client clicks the print button, invoke the browser's Print dialog in the 
 
 *NOTE: We don't recommend printing with an invisible iFrame element because it's not guaranteed to work reliably across all browsers.* 
 
-See also: 
+## Exporting
 
-* [Web Reporting](https://docs.devexpress.com/XtraReports/9814/create-end-user-reporting-applications/web-reporting)
-* [Print Reports in Web Applications](https://docs.devexpress.com/XtraReports/5093/create-end-user-reporting-applications/web-reporting/asp-net-webforms-reporting/print-and-export)
+Create a server-side controller action to export a report to a format selected by a user.
 
-**Exporting**
+## Files to Look At
 
-Create a server-side controller action to export a report to a format selected by a user. See: [Export Reports](https://docs.devexpress.com/XtraReports/1302/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/export-reports).
+- [home.component.html](CS/ClientApp/src/app/home/home.component.html)
+- [home.component.ts](CS/ClientApp/src/app/home/home.component.ts)
+- [HomeController.cs](CS/Controllers/HomeController.cs)
+
+## Documentation
+
+* [Print and Export in Angular Application](https://docs.devexpress.com/XtraReports/401842/web-reporting/javascript-reporting/angular/print-and-export)
+* [Export Reports](https://docs.devexpress.com/XtraReports/1302/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/export-reports).
+
+## More Examples
+
+- [How to Print and Export a Report in the ASP.NET Core Application without the Document Viewer](https://github.com/DevExpress-Examples/Reporting-AspNetCore-Print-Without-Preview)
+- [Reporting for ASP.NET MVC - How to print or export a report without showing a preview](https://github.com/DevExpress-Examples/reporting-print-export-report-without-showing-a-preview)
+- [Reporting for ASP.NET WebForms - How to print or export a report without showing a preview](https://github.com/DevExpress-Examples/reporting-webforms-print-export-report-without-showing-a-preview)

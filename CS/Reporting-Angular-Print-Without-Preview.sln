@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dxSampleAngularReportingPrintWithoutPreview", "dxSampleAngularReportingPrintWithoutPreview.csproj", "{8F34B6D4-525D-41A4-A10B-C8BAD4638086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dxSampleAngularReportingPrintWithoutPreview", "dxSampleAngularReportingPrintWithoutPreview.csproj", "{650BC776-F22E-4DD1-9B2D-83DD2085DD78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8F34B6D4-525D-41A4-A10B-C8BAD4638086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F34B6D4-525D-41A4-A10B-C8BAD4638086}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F34B6D4-525D-41A4-A10B-C8BAD4638086}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F34B6D4-525D-41A4-A10B-C8BAD4638086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650BC776-F22E-4DD1-9B2D-83DD2085DD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650BC776-F22E-4DD1-9B2D-83DD2085DD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650BC776-F22E-4DD1-9B2D-83DD2085DD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650BC776-F22E-4DD1-9B2D-83DD2085DD78}.Release|Any CPU.Build.0 = Release|Any CPU
 		EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {507B6E43-BEAE-465C-9C70-9127A101A0CD}
+		SolutionGuid = {F4BB558D-6D9E-4D36-A134-62B7F5892340}
 	EndGlobalSection
 EndGlobal
