@@ -29,11 +29,27 @@ Once a client clicks the print button, invoke the browser's Print dialog in the 
 
 Create a server-side controller action to export a report to a format selected by a user.
 
+## Run the Project
+
+Navigate to the *ReportingWebApp/ReportingWebApp.Server* folder and use the following command to restore dependencies and run the application:
+
+```console
+cd ReportingWebApp/ReportingWebApp.Server
+dotnet run
+```
+
+Two command prompts appear:
+
+- The ASP.NET Core API project running
+- The Angular CLI running the ng start command
+
+Open your browser and navigate to the URL specified in the command output to see the result.
+
 ## Files to Review
 
-- [home.component.html](ReportingWebApp/ReportingWebApp/ClientApp/src/app/home/home.component.html)
-- [home.component.ts](ReportingWebApp/ReportingWebApp/ClientApp/src/app/home/home.component.ts)
-- [HomeController.cs](ReportingWebApp/ReportingWebApp/Controllers/HomeController.cs)
+- [home.component.html](ReportingWebApp/ReportingWebApp.Client/src/app/home/home.html)
+- [home.component.ts](ReportingWebApp/ReportingWebApp.Client/src/app/home/home.component.ts)
+- [HomeController.cs](ReportingWebApp/ReportingWebApp.Server/Controllers/HomeController.cs)
 
 ## Documentation
 
