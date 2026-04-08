@@ -47,8 +47,8 @@ Open your browser and navigate to the URL specified in the command output to see
 
 ## Files to Review
 
-- [home.component.html](ReportingWebApp/ReportingWebApp.Client/src/app/home/home.html)
-- [home.component.ts](ReportingWebApp/ReportingWebApp.Client/src/app/home/home.component.ts)
+- [home.html](ReportingWebApp/ReportingWebApp.Client/src/app/home/home.html)
+- [home.ts](ReportingWebApp/ReportingWebApp.Client/src/app/home/home.ts)
 - [HomeController.cs](ReportingWebApp/ReportingWebApp.Server/Controllers/HomeController.cs)
 
 ## Documentation
